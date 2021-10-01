@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding='utf-8'?>
 <app-users>
 	<role rolename="admin"/>
-	<user username="admin" password="CisoCTF{too_lazy_to_revert1194}" roles="standard, manager, admin"/>
+	<user username="admin" password="CHANGE ON DEPLOYMENT" roles="standard, manager, admin"/>
 </app-users>
