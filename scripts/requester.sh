@@ -9,45 +9,6 @@ RED='\033[0;31m'
 blue='\033[0;34m'
 NC='\033[0m'
 
-printf "
-                 /C.   C\.
-                /SS.   SS\.
-               /UUU.   UUU\.
-              /SSSS.   SSSS\.
-             /BBBBB.   BBBBB\.
-          /CSUSBCSUSBCSUSBCSUSB\.
-       /CSUSBCSUSBCSUSBCSUSBCSUSBC\.
-    /CSUSBCSUSBCSUSBCSUSBCSUSBCSUSBCS\.
- \CSUSBCSUS   USBCSUSBCSUSBC   BCSUSBCSU/.
-  \CSUSBCSUS   USBCSUSBCSUS   USBCSUSBC/.
-   \CSUSBCSUS   USBCSUSBCS   CSUSBCSUS/.
-    \CSUSBCSUS   USBCSUSB   SBCSUSBCS/.
-     \CSUSBCSUS   CSUSBC   SUSBCSUSB/.
-      \CSUSBCSUSBCSUSBCSUSBCSUSBCSU/.
-       \CSUSBCSUSBCSUSBCSUSBCSUSBC/.
-             \CSUSBCSUSBCSUS/.
-              \CSUSBCSUSBCS/.
-               \CSUSBCSUSB/.
-                \CSUSBCSU/.
-                 \CSUSBC/.
-                  \CSUS/.
-                   \**/.\n\n" 
-
-printf "${RED}   /=====   /=====   /====\   /=====\n${NC}"
-printf "${RED}  /=       /=       /=   =\  /=\n${NC}"
-printf "${RED} /=       /=       /=   =/  /=\n${NC}"
-printf "${RED}/=====   /=====   /====/   /=====\n${NC}"
-
-printf "\n${blue}BLUE TEAM INVENTORY\n\n${NC}"
-
-function spacer () {
-	printf "\n\n############################ $1 ############################\n\n"
-}
-
-function smallspacer () {
-	printf "\n############## $1 ##############\n"
-}
-
 #host and ip
 #hostname | ip 
 host=$(hostname)
